@@ -3,9 +3,9 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "EncardBuilder",
-	"Description": "Wand to create en-card",
+	"Description": "the wand to create the en-card",
 	"Category": "Other",
-	"CreatedBy": "AENALIA",
+	"CreatedBy": "aenalia-dev",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -13,5 +13,12 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "EncardBuilder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
