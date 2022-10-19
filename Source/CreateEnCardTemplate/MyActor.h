@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
+#include "EncardBuilder/public/MetaverseSpaceMetadata.h"
 #include "MyActor.generated.h"
 
 UCLASS()
@@ -14,6 +16,8 @@ class CREATEENCARDTEMPLATE_API AMyActor : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMyActor();
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	//UMetaverseSpaceMetadata *data;
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,5 +26,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };

@@ -8,7 +8,7 @@ public class CreateEnCardTemplate : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EncardBuilder" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

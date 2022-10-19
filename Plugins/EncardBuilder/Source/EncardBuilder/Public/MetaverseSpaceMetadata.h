@@ -15,10 +15,10 @@ class ENCARDBUILDER_API UMetaverseSpaceMetadata : public UDataAsset
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "metaverse space metadata")
 		FString title;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "metaverse space metadata")
 		TSoftObjectPtr<UWorld> TargetMap;
 
 };
