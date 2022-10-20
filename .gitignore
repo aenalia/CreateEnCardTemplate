@@ -12,3 +12,8 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log
+Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log
+Releases/1.0/WindowsNoEditor/AssetRegistry.bin
+Releases/1.0/WindowsNoEditor/CreateEnCardTemplate-WindowsNoEditor.pak
+Releases/1.0/WindowsNoEditor/Metadata/DevelopmentAssetRegistry.bin
