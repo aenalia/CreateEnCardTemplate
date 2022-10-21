@@ -15,8 +15,8 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UMetaverseSpaceMetadata* metadata = LoadObject<UMetaverseSpaceMetadata>(NULL, TEXT("MetaverseSpaceMetadata'/EncardBuilder/space/Metadata.Metadata'"));
-	UGameplayStatics::OpenLevelBySoftObjectPtr(this, metadata->TargetMap);
+	//UMetaverseSpaceMetadata* metadata = LoadObject<UMetaverseSpaceMetadata>(NULL, TEXT("MetaverseSpaceMetadata'/EncardBuilder/space/Metadata.Metadata'"));
+	//UGameplayStatics::OpenLevelBySoftObjectPtr(this, metadata->TargetMap);
 
 }
 
